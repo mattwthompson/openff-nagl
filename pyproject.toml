@@ -37,10 +37,6 @@ optional-dependencies.cli = [
   "click",
   "click-option-group",
 ]
-optional-dependencies.doc = [
-  "openff-sphinx-theme @ git+https://github.com/openforcefield/openff-sphinx-theme.git@main",
-  "sphinx>=1.8",
-]
 optional-dependencies.test = [
   "pytest>=6",
   "pytest-cov>=3",
