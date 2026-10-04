@@ -4,3 +4,6 @@ include AUTHORS.md CHANGELOG.md CODE_OF_CONDUCT.md README.md
 
 graft openff
 global-exclude *.py[cod] __pycache__ *.so
+
+prune openff/nagl/_tests/data/models
+prune openff/nagl/_tests/data/legacy
